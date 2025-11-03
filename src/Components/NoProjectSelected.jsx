@@ -16,7 +16,7 @@ export default function NoProjectSelected({onStartAddProjet}) {
                 Please select a project from the sidebar or create a new one.
                 </p>
             <p className='mt-8'>
-                <Button onClick={onStartAddProjet}>Create new project</Button>
+                <Button onClick={onStartAddProjet }>Create new project</Button>
             </p>
         </div>
     );
